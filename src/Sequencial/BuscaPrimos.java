@@ -15,8 +15,8 @@ public class BuscaPrimos {
 
     public static void main(String[] args) {
         // Intervalo para buscar primos
-        long inicio = 1_000_000L;
-        long fim = 1_010_000L;
+        long inicio = 1;
+        long fim = 10000000;
 
         System.out.println("Buscando números primos entre " + inicio + " e " + fim + "...");
         //Receber tempo inicial da execucao

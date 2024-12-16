@@ -51,9 +51,11 @@ public class BuscaThreads {
     public static void main(String[] args) throws InterruptedException {
         //Definicao dos intervalos e do numero de threads a serem usadas
         int inicio = 1;
-        int fim = 10_000_000;
-        int numThreads = 100;
+        int fim = 10000000;
+        int numThreads = 500;
 
+        System.out.println("Numero de Threads utilizadas: " + numThreads);
+        System.out.println("Buscando primos no intervalo: " + inicio + " - " + fim);
         //Receber tempo inicial da execucao
         long tempoInicial = System.nanoTime();
         

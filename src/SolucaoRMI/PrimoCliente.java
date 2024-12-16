@@ -18,7 +18,7 @@ public class PrimoCliente {
 
             //Definicao dos intervalos
             int inicio = 1;
-            int fim = 100000;
+            int fim = 10000000;
             
             //Receber tempo inicial da execucao
             long tempoInicial = System.nanoTime();
